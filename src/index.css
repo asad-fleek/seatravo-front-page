@@ -2,11 +2,11 @@
 
 
 .hero-banner{
-    background-image: url("./images/banner/bgimage.svg");
+    background-image: url("/images/banner/bgimage.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .bg-custom{
-    background-image: url("./images/welcome/background.png");
+    background-image: url("/images/welcome/background.png");
     background-repeat: no-repeat;
 }
