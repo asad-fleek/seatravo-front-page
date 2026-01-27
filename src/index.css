@@ -10,3 +10,7 @@
     background-image: url("/images/welcome/background.png");
     background-repeat: no-repeat;
 }
+.bg-family{
+    background-image: url("images/get-your/familyframe.png");
+    background-repeat: no-repeat;
+}
