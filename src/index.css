@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
 }
 .bg-family{
-    background-image: url("images/get-your/familyframe.png");
+    background-image: url("/images/get-your/familyframe.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
