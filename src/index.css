@@ -13,4 +13,5 @@
 .bg-family{
     background-image: url("images/get-your/familyframe.png");
     background-repeat: no-repeat;
+    background-size: contain;
 }
