@@ -1,22 +1,10 @@
-import Banner from './components/banner'
-import Footer from './components/footer'
-import GetTravel from './components/get-caribibean-travel'
-import NavBar from './components/nav-bar'
-import PlanYour from './components/plan your'
-import FerryRoutes from './components/popular-ferry-routes'
-import WelcomePage from './components/welcome-page'
+
+import { RouterProvider } from "react-router/dom";
+import router from './routes'
 
 function App() {
   return (
-    <>
-    <NavBar />
-    <Banner />
-    <WelcomePage />
-    <FerryRoutes />
-    <PlanYour />
-    <GetTravel />
-    <Footer />
-    </>
+   <RouterProvider router={router} />
   )
 }
 
