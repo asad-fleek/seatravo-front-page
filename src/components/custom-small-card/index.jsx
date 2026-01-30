@@ -1,6 +1,10 @@
 import React from 'react'
+// import { ThemeDataContext } from '../Context/context';
 
 const CustomCard = ({ img, title = "asad", price, duration }) => {
+
+
+   
 
     return (
         <div className=" bg-white flex flex-col gap-4 items-center w-[315px] h-[419px] justify-center flex-wrap mb-6">

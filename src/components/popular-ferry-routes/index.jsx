@@ -27,8 +27,8 @@ function FerryRoutes() {
                         {
                             routes.map((item, index) => {
                                 return (
-                                    <div className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3 gap-6 mx-auto pt-6'>
-                                        <CustomCard devrd key={index} title={item.title} price={item.price} duration={item.duration} img={item.img} />
+                                    <div key={index} className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3 gap-6 mx-auto pt-6'>
+                                        <CustomCard   title={item.title} price={item.price} duration={item.duration} img={item.img} />
                                     </div>
                                 )
                             })
