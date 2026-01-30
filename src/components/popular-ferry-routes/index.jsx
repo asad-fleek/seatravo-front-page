@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { logo } from '../../utils/images';
 import CustomTitle from '../routes';
 import CustomCard from '../custom-small-card';
-import { routes } from '../../utils/routes';
+import { ThemeDataContext } from '../Context/context';
+
+
 
 
 
 
 function FerryRoutes() {
+    const data = useContext(ThemeDataContext);
+  
     return (
         <>
             <section className='mt-8'>
@@ -25,7 +29,7 @@ function FerryRoutes() {
 
 
                         {
-                            routes.map((item, index) => {
+                            data.map((item, index) => {
                                 return (
                                     <div key={index} className='col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3 gap-6 mx-auto pt-6'>
                                         <CustomCard   title={item.title} price={item.price} duration={item.duration} img={item.img} />
