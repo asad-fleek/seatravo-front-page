@@ -11,7 +11,6 @@ import { ThemeDataContext } from '../Context/context';
 
 function FerryRoutes() {
     const data = useContext(ThemeDataContext);
-  
     return (
         <>
             <section className='mt-8'>
