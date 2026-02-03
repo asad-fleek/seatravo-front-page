@@ -17,7 +17,7 @@ const NavBar = () => {
 
   const location = useLocation();
 
-  // Scroll to top smoothly when route changes
+  
   useEffect(() => {
     window.scrollTo({
       top: 0,
