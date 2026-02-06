@@ -5,7 +5,7 @@ const Cards = ({ title, description }) => {
     return (
         <div className="col-span-12 md:col-span-6 lg:col-span-4 flex justify-center mb-6 gap-4 ">
 
-            <div className={`bg-[url('/images/plans/Frame.png')] bg-cover flex flex-col items-center p-10 justify-between text-center w-[450px] h-[596px]`}>
+            <div className={`bg-[url('/images/plans/Frame.png')] bg-cover flex flex-col items-center p-10 justify-between text-center w-112.5 h-149`}>
                 <div>
                     <h2 className="font-primary font-semibold text-[34px] text-stone-50">
                         {title}

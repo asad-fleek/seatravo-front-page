@@ -103,9 +103,9 @@ const NavBar = () => {
                   </div>
                 </div>
 
-                <div className="hidden md:flex h-12 p-4 rounded-xl outline outline-1 outline-offset-[-1px] cursor-pointer outline-Border-brdr-divider  justify-center items-center gap-2">
+                <div className="hidden md:flex h-12 p-4 rounded-xl outline -outline-offset-1 cursor-pointer outline-Border-brdr-divider  justify-center items-center gap-2">
                   <div className="w-6 h-6 relative overflow-hidden">
-                    <div className="w-4 h-5 absolute left-[3.35px] top-[1px] bg-Icon-icon-Dark" />
+                    <div className="w-4 h-5 absolute left-[3.35px] top-px bg-Icon-icon-Dark" />
                     <button onClick={handleClick}><img
                       src={headSet}
                       alt="Logo"

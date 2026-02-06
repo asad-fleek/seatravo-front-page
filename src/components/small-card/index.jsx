@@ -3,7 +3,7 @@ import { calendar } from "../../utils/images";
 const SmallCard = ({ title="title", description="description", icon=calendar , isPassenger=false}) => {
     return (
         <>
-            <div className="h-32 w-56 text-white pl-6 mt-3 pr-4 py-3 bg-white/10 outline outline-1 outline-offset-[-1px] outline-white/10 inline-flex flex-col justify-start items-start gap-1">
+            <div className="h-32 w-56 text-white pl-6 mt-3 pr-4 py-3 bg-white/10 outline -outline-offset-1 outline-white/10 inline-flex flex-col justify-start items-start gap-1">
                 <div className="text-base font-medium font-Haniva">{title}</div>
                 <div className="flex flex-col justify-start items-start gap-0.5">
                     <div className="inline-flex justify-between items-center gap-12">

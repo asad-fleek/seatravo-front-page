@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from "react-router";
+import { footerlogo } from "../../utils/images"
 
 function Footer() {
   return (
     <footer className="bg-stone-950 text-white py-12">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
-
         <div>
           <Link to = "/">
           <img
             className="w-[277.26px] h-[57.18px] mb-4"
-            src="images/footer/OrangeandBlue AdventureTravel AgencyLogo.png"
+            src={footerlogo}
             alt="Seatravo Logo"
           />
           </Link>
@@ -39,8 +39,6 @@ function Footer() {
             </a>
           </div>
         </div>
-
-
         <div>
           <h3 className="text-lg font-semibold mb-3">Explore</h3>
           <ul className="space-y-2">
@@ -66,7 +64,6 @@ function Footer() {
             </Link>
           </ul>
         </div>
-
         <div>
           <h3 className="text-lg font-semibold mb-3">Support</h3>
           <ul className="space-y-2">
@@ -85,8 +82,6 @@ function Footer() {
           </ul>
         </div>
       </div>
-
-
       <div className="text-center text-gray-400 mt-10 text-sm">
         © 2025 Seatravo. All rights reserved.
       </div>

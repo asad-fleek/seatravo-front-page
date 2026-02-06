@@ -2,7 +2,6 @@ import React from "react"
 import { tick } from "../../utils/images";
 
 const Bar = ({ description }) => {
-
   return (
 
     <div className='w-full h-5 gap-1 flex items-center '>

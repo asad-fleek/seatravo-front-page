@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
 import { calendar, profile, search, shipicon, } from '../../utils/images';
-import BigCard from '../bigcard';
+import BigCard from '../big-card';
 import { bigCards } from '../../utils/bigcard';
-import SmallCard from '../smallcard';
-
+import SmallCard from '../small-card';
 import { bar } from '../../utils/bar';
 import Bar from '../bar';
-
 
 const Banner = () => {
   const [tripType, settripType] = useState('oneWay');
@@ -14,7 +12,6 @@ const Banner = () => {
   const handleChange = (event) => {
     settripType(event.target.value);
   };
-
 
   return (
     <>
@@ -41,8 +38,7 @@ const Banner = () => {
             <h6 className='text-xl font-semibold font-Haniva'>Book your Ferry</h6>
           </div>
           <div className='mx-auto  h-60 rounded-2xl bg-[#ffffff27] backdrop-blur-md pt-5 pl-5 transform -translate-y-25 md:block hidden'>
-
-            <div className="flex gap-4">
+           <div className="flex gap-4">
               <div className={`${tripType === 'oneWay' && "border-2 border-white rounded-lg"} p-4 flex items-center justify-center gap-2 cursor-pointer`}>
                 <input type='radio' id="radio1" name="trip" value="oneWay" checked={tripType === 'oneWay'} onChange={handleChange} className='cursor-pointer w-6 h-6 px-3 py-2 rounded-full  outline-offset: -2px; outline-Border-brdr-inverse inline-flex justify-start items-start gap-4' />
                 <label htmlFor="radio1" className='justify-start text-Text-txt-Inverse text-lg  font-bold font-Haniva text-white cursor-pointer '>One Way</label>

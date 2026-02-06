@@ -10,4 +10,3 @@ const CustomTitle = ({ title }) => {
 }
 
 export default CustomTitle;
-

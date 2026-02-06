@@ -2,12 +2,7 @@ import React, { useContext } from 'react'
 import { logo } from '../../utils/images';
 import CustomTitle from '../routes';
 import CustomCard from '../custom-small-card';
-import { ThemeDataContext } from '../Context/context';
-
-
-
-
-
+import { ThemeDataContext } from '../../context/context';
 
 function FerryRoutes() {
     const data = useContext(ThemeDataContext);
@@ -17,7 +12,7 @@ function FerryRoutes() {
                 <div className='container mx-auto'>
                     <div className='grid grid-col-12'>
                         <div className='col-span-12 md:col-span-8 mx-auto '>
-                            <img className="w-[29.35px] h-[30px] mx-auto" src={logo} alt="agency logo" />
+                            <img className="w-[29.35px] h-7.5 mx-auto" src={logo} alt="agency logo" />
                             <CustomTitle title="Popular Ferry Routes" />
                             <p className="font-semibold text-lg md:text-2xl text-center font-Haniva">Compare
                                 schedules and prices across multiple ferry operators. All routes include <br /> real-time availabilty and
