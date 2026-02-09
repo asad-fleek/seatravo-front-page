@@ -41,7 +41,7 @@ const NavBar = () => {
               </NavLink>
             </div>
             <div className='col-span-6 self-center hidden md:block'>
-              <div className="flex justify-start items-center gap-3.5 ">
+              <div className="justify-start items-center gap-3.5 hidden lg:flex">
                 <NavLink
                   to="/ferries"
                   className={({ isActive }) =>
@@ -86,7 +86,7 @@ const NavBar = () => {
             <div className='md:col-span-4 col-span-6'>
               <div className="flex justify-end items-center gap-4">
                 <div
-                  className="p-0.5 rounded-lg justify-start items-center gap-1 hidden md:flex"
+                  className="p-0.5 rounded-lg justify-start items-center gap-1 hidden lg:flex"
                 >
                   <div className="w-10 px-2.5 py-1 text-white rounded-md cursor-pointer inline-flex flex-col justify-center items-center gap-2.5  bg-stone-950 hover:text-black hover:bg-red-50">
                     <div className="text-center  text-base font-medium font-Haniva "><button onClick={handleClick}>EN</button>
@@ -99,9 +99,9 @@ const NavBar = () => {
                   </div>
                 </div>
 
-                <div className="hidden md:flex h-12 p-4 rounded-xl outline -outline-offset-1 cursor-pointer outline-Border-brdr-divider  justify-center items-center gap-2">
+                <div className="hidden lg:flex  h-12 p-4 rounded-xl outline -outline-offset-1 cursor-pointer outline-Border-brdr-divider  justify-center items-center gap-2">
                   <div className="w-6 h-6 relative overflow-hidden">
-                    <div className="w-4 h-5 absolute left-[3.35px] top-px bg-Icon-icon-Dark" />
+                    <div className="w-4 h-5 absolute left-[3.35px] top-px bg-Icon-icon-Dark " />
                     <button onClick={handleClick}><img
                       src={headSet}
                       alt="Logo"

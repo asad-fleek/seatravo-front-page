@@ -37,14 +37,14 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="items-center text-white justify-center mx-auto gap-2 max-w-max -translate-y-24 bg-[#ffffff27] backdrop-blur-md rounded-tl-lg rounded-tr-lg pt-3 px-10 md:flex hidden">
+        <div className="items-center text-white justify-center mx-auto gap-2 max-w-max -translate-y-24 bg-[#ffffff27] backdrop-blur-md rounded-tl-lg rounded-tr-lg pt-3 px-10 hidden lg:flex">
           <img src={shipicon} alt="Ship icon" />
           <h6 className="text-xl font-semibold font-Haniva">
             Book your Ferry
           </h6>
         </div>
 
-        <div className="mx-auto h-60 rounded-2xl bg-[#ffffff27] backdrop-blur-md pt-5 pl-5 -translate-y-24 md:block hidden">
+        <div className="mx-auto h-60 rounded-2xl bg-[#ffffff27] backdrop-blur-md pt-5 pl-5 -translate-y-24 hidden lg:block">
           <div className="flex gap-4">
             <div
               className={`p-4 flex items-center gap-2 cursor-pointer ${tripType === 'oneWay'
@@ -79,7 +79,7 @@ const Banner = () => {
                 value="roundtrip"
                 checked={tripType === 'roundtrip'}
                 onChange={handleChange}
-                className="cursor-pointer w-6 h-6 outline-offset-[-2px]"
+                className="cursor-pointer w-6 h-6 -outline-offset-2"
               />
               <label htmlFor="radio2" className="text-white text-lg font-bold cursor-pointer">
                 Round Trip
