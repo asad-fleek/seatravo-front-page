@@ -1,20 +1,24 @@
 function WelcomePage() {
-
-
   return (
-
     <section>
-      <div className=" justify-center flex flex-col h-screen items-center bg-custom bg-contain md:bg-cover bg-center">
-        <h1 className="font-primary font-extrabold text-md leading-[110%]">Why Thousand Trust</h1>
+      <div className="flex flex-col justify-center items-center min-h-screen bg-custom bg-center bg-cover px-4">
 
-        <div className=" md:w-126.75 w-[55%] h-13.25 rotate-0 opacity-100 top-[346.06px] left-[466.5px]">
+        <h1 className="font-primary font-extrabold text-xl sm:text-2xl md:text-4xl leading-[110%] text-center mb-6">
+          Why Thousand Trust
+        </h1>
+        <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
           <div className="w-full flex justify-center items-center">
-            <img src="images\welcome\image.png" alt="logo" className="md:w-[348.08px] h-auto" />
+            <img
+              src="images/welcome/image.png"
+              alt="logo"
+              className="w-full h-auto object-contain"
+            />
           </div>
         </div>
 
       </div>
     </section>
-  )
+  );
 }
+
 export default WelcomePage;
