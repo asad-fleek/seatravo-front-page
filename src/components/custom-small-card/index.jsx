@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CustomCard = ({ img, title = "asad", price, duration }) => {
     return (
         <div className=" bg-white flex flex-col gap-4 items-center w-78.75 h-104.75 justify-center flex-wrap mb-6">

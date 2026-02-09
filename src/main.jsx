@@ -5,9 +5,9 @@ import App from './App.jsx'
 import { ThemeContext } from '../src/context/context.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode> 
+  <StrictMode>
     <ThemeContext>
-    <App />
+      <App />
     </ThemeContext>
   </StrictMode>,
 )

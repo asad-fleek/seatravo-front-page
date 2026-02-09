@@ -1,4 +1,3 @@
-import React from 'react'
 import CustomTitle from '../title'
 import { largecard } from '../../utils/largecard'
 import Cards from '../large-cards'
@@ -12,18 +11,18 @@ function PlanYour() {
         <img className="w-[29.35px] h-7.5 mx-auto" src={logo} alt="agency logo" />
         <CustomTitle title={"Plan Your Complete Caribbean Escape"} />
 
-        <div  className='grid grid-cols-12'>
+        <div className='grid grid-cols-12'>
           {
-          largecard.map((item, index) => {
-            return (
+            largecard.map((item, index) => {
+              return (
 
-              <Cards key={index} title={item.title} description={item.description} />
-            )
-          })
-        }
+                <Cards key={index} title={item.title} description={item.description} />
+              )
+            })
+          }
+        </div>
       </div>
-      </div>
-      
+
     </section>
   )
 }

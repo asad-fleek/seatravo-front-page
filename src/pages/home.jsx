@@ -1,4 +1,3 @@
-import React from 'react'
 import NavBar from '../components/nav-bar'
 import Banner from '../components/banner'
 import WelcomePage from '../components/welcome-page'

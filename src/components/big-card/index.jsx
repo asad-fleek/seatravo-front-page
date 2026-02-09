@@ -1,5 +1,3 @@
-import React from "react";
-
 const BigCard = (props) => {
     return (
         <div className="h-32  mt-3 pl-6 pr-20 py-3 bg-white/10  text-white outline -outline-offset-1 outline-white/10 inline-flex flex-col justify-start items-start gap-1 ">

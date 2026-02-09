@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import  { useState, useEffect } from 'react'
 import { headerLogo, headSet } from '../../utils/images';
 import { Menu, X } from 'lucide-react';
 import { NavLink, useLocation } from "react-router";
@@ -17,7 +17,7 @@ const NavBar = () => {
 
   const location = useLocation();
 
-  
+
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -27,7 +27,7 @@ const NavBar = () => {
 
   return (
     <>
-     <header>
+      <header>
         <div className='container mx-auto'>
           <div className='grid grid-cols-12'>
             <div className='md:col-span-2 col-span-6 self-center'>
@@ -41,45 +41,41 @@ const NavBar = () => {
               </NavLink>
             </div>
             <div className='col-span-6 self-center hidden md:block'>
-              <div className="flex justify-start items-center gap-3.5">
-                <NavLink 
+              <div className="flex justify-start items-center gap-3.5 ">
+                <NavLink
                   to="/ferries"
-                  className={({ isActive }) => 
-                    `px-4 py-1 rounded-xl flex justify-center cursor-pointer items-center gap-2 ${
-                      isActive ? 'bg-[#E6F3FB]' : 'hover:bg-[#E6F3FB]'
+                  className={({ isActive }) =>
+                    `px-4 py-1 rounded-xl flex justify-center cursor-pointer items-center gap-2 ${isActive ? 'bg-[#E6F3FB]' : 'hover:bg-[#E6F3FB]'
                     }`
                   }
                 >
                   <div className="text-lg font-bold font-Haniva">Ferries</div>
                 </NavLink>
 
-                <NavLink 
+                <NavLink
                   to="/excursion"
-                  className={({ isActive }) => 
-                    `px-4 py-1 rounded-xl flex justify-center cursor-pointer items-center gap-2 ${
-                      isActive ? 'bg-[#E6F3FB]' : 'hover:bg-[#E6F3FB]'
+                  className={({ isActive }) =>
+                    `px-4 py-1 rounded-xl flex justify-center cursor-pointer items-center gap-2 ${isActive ? 'bg-[#E6F3FB]' : 'hover:bg-[#E6F3FB]'
                     }`
                   }
                 >
                   <div className="text-lg font-bold font-Haniva">Excursions</div>
                 </NavLink>
 
-                <NavLink 
+                <NavLink
                   to="/cars"
-                  className={({ isActive }) => 
-                    `px-4 py-1 rounded-xl flex cursor-pointer justify-center items-center gap-2 ${
-                      isActive ? 'bg-[#E6F3FB]' : 'hover:bg-[#E6F3FB]'
+                  className={({ isActive }) =>
+                    `px-4 py-1 rounded-xl flex cursor-pointer justify-center items-center gap-2 ${isActive ? 'bg-[#E6F3FB]' : 'hover:bg-[#E6F3FB]'
                     }`
                   }
                 >
                   <div className="text-lg font-bold font-Haniva">Cars</div>
                 </NavLink>
 
-                <NavLink 
+                <NavLink
                   to="/crusies"
-                  className={({ isActive }) => 
-                    `px-4 py-1 rounded-xl flex justify-center items-center gap-2 cursor-pointer ${
-                      isActive ? 'bg-[#E6F3FB]' : 'hover:bg-[#E6F3FB]'
+                  className={({ isActive }) =>
+                    `px-4 py-1 rounded-xl flex justify-center items-center gap-2 cursor-pointer ${isActive ? 'bg-[#E6F3FB]' : 'hover:bg-[#E6F3FB]'
                     }`
                   }
                 >

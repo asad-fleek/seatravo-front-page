@@ -6,14 +6,12 @@ import Cars from "../pages/cars";
 import Excursions from "../pages/excursions";
 import Cruises from "../pages/cruises";
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
   },
-    {
+  {
     path: "/ferries",
     element: <Ferries />,
   },

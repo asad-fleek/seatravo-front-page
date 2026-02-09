@@ -1,6 +1,6 @@
 import { calendar } from "../../utils/images";
 
-const SmallCard = ({ title="title", description="description", icon=calendar , isPassenger=false}) => {
+const SmallCard = ({ title = "title", description = "description", icon = calendar, isPassenger = false }) => {
     return (
         <>
             <div className="h-32 w-56 text-white pl-6 mt-3 pr-4 py-3 bg-white/10 outline -outline-offset-1 outline-white/10 inline-flex flex-col justify-start items-start gap-1">

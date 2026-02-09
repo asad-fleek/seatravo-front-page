@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from "react-router";
 import { footerlogo } from "../../utils/images"
 
@@ -7,12 +6,12 @@ function Footer() {
     <footer className="bg-stone-950 text-white py-12">
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
         <div>
-          <Link to = "/">
-          <img
-            className="w-[277.26px] h-[57.18px] mb-4"
-            src={footerlogo}
-            alt="Seatravo Logo"
-          />
+          <Link to="/">
+            <img
+              className="w-[277.26px] h-[57.18px] mb-4"
+              src={footerlogo}
+              alt="Seatravo Logo"
+            />
           </Link>
 
           <p className="font-primary text-[24px] mb-2">
@@ -42,25 +41,25 @@ function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Explore</h3>
           <ul className="space-y-2">
-            <Link to = "/ferries">
-            <li className="hover:text-red-400">
-              Ferry Routes
-            </li>
+            <Link to="/ferries">
+              <li className="hover:text-red-400">
+                Ferry Routes
+              </li>
             </Link>
-            <Link to = "/excursion">
-            <li className="hover:text-red-400">
-              Excursions
-            </li>
+            <Link to="/excursion">
+              <li className="hover:text-red-400">
+                Excursions
+              </li>
             </Link>
-            <Link to = "/cars">
-            <li className="hover:text-red-400">
-              Car Rentals
-            </li>
+            <Link to="/cars">
+              <li className="hover:text-red-400">
+                Car Rentals
+              </li>
             </Link>
-            <Link to = "/crusies">
-            <li className="hover:text-red-400">
-              Cruises
-            </li>
+            <Link to="/crusies">
+              <li className="hover:text-red-400">
+                Cruises
+              </li>
             </Link>
           </ul>
         </div>
