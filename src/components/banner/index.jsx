@@ -59,7 +59,7 @@ const Banner = () => {
                 value="oneWay"
                 checked={tripType === 'oneWay'}
                 onChange={handleChange}
-                className="cursor-pointer w-6 h-6 outline-offset-[-2px]"
+                className="cursor-pointer w-6 h-6 -outline-offset-2"
               />
               <label htmlFor="radio1" className="text-white text-lg font-bold cursor-pointer">
                 One Way
