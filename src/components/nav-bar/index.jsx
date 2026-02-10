@@ -86,14 +86,14 @@ const NavBar = () => {
             <div className='md:col-span-4 col-span-6'>
               <div className="flex justify-end items-center gap-4">
 
-                <div className="p-0.5 rounded-lg justify-start items-center gap-1 hidden lg:flex">
-                  <div className="w-10 px-2.5 py-1 text-white rounded-md cursor-pointer inline-flex flex-col justify-center items-center bg-stone-950 hover:text-black hover:bg-red-50">
+                <div className="p-0.5 rounded-lg justify-start items-center gap-1 hidden lg:flex cursor-pointer">
+                  <div className="w-10 px-2.5 py-1 text-white rounded-md  inline-flex flex-col justify-center items-center bg-stone-950 hover:text-black hover:bg-red-50">
                     <div className="text-base font-medium font-Haniva">
                       <button onClick={handleClick}>EN</button>
                     </div>
                   </div>
 
-                  <div className="w-10 px-2.5 py-1 text-black rounded-md cursor-pointer inline-flex flex-col justify-center items-center bg-red-50 hover:text-white hover:bg-stone-800">
+                  <div className="w-10 px-2.5 py-1 text-black rounded-md  inline-flex flex-col justify-center items-center bg-red-50 hover:text-white hover:bg-stone-800">
                     <div className="text-base font-medium font-Haniva">
                       <button onClick={handleClick}>ES</button>
                     </div>
@@ -107,7 +107,7 @@ const NavBar = () => {
                 </div>
 
                 <div className="h-12 px-6 py-4 bg-[#FF6B6B] text-white rounded-xl flex justify-center items-center">
-                  <div className="text-lg font-bold font-Haniva">
+                  <div className="text-lg font-bold font-Haniva ">
                     <button onClick={handleClick}>Login or Register</button>
                   </div>
                 </div>
